@@ -27,9 +27,9 @@ if (meetsPhpThreshold(
     $_SESSION["totalCourses"] ?? 0,
     $_SESSION["takenCourses"] ?? 0
 )) {
-    echo "<p>you are accepted for an phone interview.</p>";
+    echo "<p>Congratulations! You have been accepted for a phone interview.</p>";
 } else {
-    echo "<p>sorry, your application was rejected.</p>";
+    echo "<p>Sorry, your application has been denied.</p>";
 }
 ?>
 
